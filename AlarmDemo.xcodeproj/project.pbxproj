@@ -16,6 +16,8 @@
 		BD7676FC2C2A18F300C8F90F /* AlarmDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7676FB2C2A18F300C8F90F /* AlarmDemoTests.swift */; };
 		BD7677062C2A18F300C8F90F /* AlarmDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7677052C2A18F300C8F90F /* AlarmDemoUITests.swift */; };
 		BD7677082C2A18F300C8F90F /* AlarmDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7677072C2A18F300C8F90F /* AlarmDemoUITestsLaunchTests.swift */; };
+		BD7677152C2A233B00C8F90F /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7677142C2A233B00C8F90F /* AlarmTableViewCell.swift */; };
+		BD7677172C2A23A200C8F90F /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7677162C2A23A200C8F90F /* AddAlarmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BD7677012C2A18F300C8F90F /* AlarmDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7677052C2A18F300C8F90F /* AlarmDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDemoUITests.swift; sourceTree = "<group>"; };
 		BD7677072C2A18F300C8F90F /* AlarmDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD7677142C2A233B00C8F90F /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		BD7677162C2A23A200C8F90F /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				BD7676E42C2A18F200C8F90F /* AppDelegate.swift */,
 				BD7676E62C2A18F200C8F90F /* SceneDelegate.swift */,
 				BD7676E82C2A18F200C8F90F /* ViewController.swift */,
+				BD7677162C2A23A200C8F90F /* AddAlarmViewController.swift */,
 				BD7676EA2C2A18F200C8F90F /* Main.storyboard */,
+				BD7677142C2A233B00C8F90F /* AlarmTableViewCell.swift */,
 				BD7676ED2C2A18F300C8F90F /* Assets.xcassets */,
 				BD7676EF2C2A18F300C8F90F /* LaunchScreen.storyboard */,
 				BD7676F22C2A18F300C8F90F /* Info.plist */,
@@ -260,7 +266,9 @@
 			files = (
 				BD7676E92C2A18F200C8F90F /* ViewController.swift in Sources */,
 				BD7676E52C2A18F200C8F90F /* AppDelegate.swift in Sources */,
+				BD7677172C2A23A200C8F90F /* AddAlarmViewController.swift in Sources */,
 				BD7676E72C2A18F200C8F90F /* SceneDelegate.swift in Sources */,
+				BD7677152C2A233B00C8F90F /* AlarmTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
